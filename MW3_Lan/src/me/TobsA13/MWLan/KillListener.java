@@ -29,6 +29,7 @@ public class KillListener implements Listener {
 					System.out.print(kp.getDisplayName()); // TODO DEBUG
 					System.out.print(p.getDisplayName()); // DEBUG
 					System.out.print("Kills: " + plugin.tmap.get(kp)); // DEBUG
+					//TEST
 				}
 			}
 		}
