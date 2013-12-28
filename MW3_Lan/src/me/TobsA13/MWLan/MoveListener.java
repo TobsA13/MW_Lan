@@ -1,3 +1,8 @@
+/**
+ * @author TobsA13
+ *
+ */
+
 package me.TobsA13.MWLan;
 
 
