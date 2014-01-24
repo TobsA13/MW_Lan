@@ -40,7 +40,6 @@ public class MWLan extends JavaPlugin {
 		System.out.println("[MW] Plugin aktiviert!");
 
 		// TODO Commands
-		// this.getCommand("color").setExecutor(new colorCommand());
 
 		// TODO Events
 
@@ -79,7 +78,6 @@ public class MWLan extends JavaPlugin {
 							for (Location loc : t2pos) {
 								flaech(loc, Material.EMERALD_ORE);
 							}
-							// BOX IN BOX IN BOX...
 
 						}
 					}, 100L);
@@ -98,7 +96,6 @@ public class MWLan extends JavaPlugin {
 							for (Location loc : t2pos) {
 								flaech(loc, Material.EMERALD_ORE);
 							}
-							// BOX IN BOX IN BOX...
 
 						}
 					}, 200L);
@@ -117,7 +114,6 @@ public class MWLan extends JavaPlugin {
 							for (Location loc : t2pos) {
 								flaech(loc, Material.EMERALD_ORE);
 							}
-							// BOX IN BOX IN BOX...
 
 						}
 					}, 300L);
@@ -128,7 +124,6 @@ public class MWLan extends JavaPlugin {
 								flaech(loc, Material.AIR);
 							}
 							t2pos.clear();
-							// BOX IN BOX IN BOX...
 
 						}
 					}, 400L);
