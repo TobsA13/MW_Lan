@@ -37,11 +37,9 @@ public class MWLan extends JavaPlugin {
 		PluginDescriptionFile descFile = this.getDescription();
 		System.out.println("[MW] Plugin by TobsA13");
 		System.out.println("[MW] Version " + descFile.getVersion());
-		System.out.println("[MW] Plugin aktiviert!");
 
 		// TODO Commands
 
-		// TODO Events
 
 		PluginManager pm = this.getServer().getPluginManager();
 		pm.registerEvents(new MoveListener(this), this);
